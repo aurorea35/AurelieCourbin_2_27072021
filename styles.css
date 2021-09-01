@@ -1,0 +1,39 @@
+html
+{
+    font-family: raleway;
+}
+
+h1,h2
+{
+    font-size: 20px;
+}
+
+p
+{
+    font-size: 12px;
+}
+
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+h3
+{
+    font-size: 10px;
+}
+
+figcaption
+{
+    font-size: 10px;
+}
+
+.navigation_footer
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
