@@ -2,6 +2,7 @@ html
 {
     font-family: raleway;
 }
+
 /* Partie importante de la page */
 
 h1,h2
@@ -17,14 +18,6 @@ h3
 h4
 {
     font-size: 10px;
-}
-
-var
-{
-    --bleuclair: #DEEBFF;
-    --bleufonce: #0065FC;
-    --grisclair: #F2F2F2;
-    --grisfonce: #f2f2f2c4;
 }
 
 p
@@ -62,17 +55,44 @@ p
 }
 
 /* Recherche */
-.rechercher span
+
+.rechercher
 {
-    padding: 10px;
-    background: #cfcfcf;
+    display: flex;
 }
+
+.rechercher i
+{
+    position: relative;
+    margin-left: 7px;
+    padding-top: 4px;
+    font-size: 0.75em;
+}
+
+.rechercher input
+{
+    border: 1px #cfcfcf solid;
+    border-left: 22px #cfcfcf solid;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: -16px;
+}
+
+.ville
+{
+    padding-left: 5px;
+    font-weight: bold;
+    color: black;
+}
+
 .clic
 {
     color: white;
-    background-color: darkblue;
-    border-radius: 20px;
-    margin-right: 0px;
+    background-color: #0065FC;
+    border: 1px #0065FC solid;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
 }
 
 /* Filtre */
@@ -127,17 +147,18 @@ p
 .information
 {
     display: flex;
+    align-items: center;
 }
 
 .information i
 {
-    border: 1px rgb(156, 154, 154) solid;
+    border: 1px #DEEBFF solid;
     border-radius: 40px;
-    color: darkblue;
+    color: #0065FC;
     text-align: center;
     width: 20px;
     height: 20px;
-    line-height: 1;
+    line-height: 20px;
     font-size: 12px;
 }
 
@@ -149,6 +170,21 @@ p
 
 /* Hébergement */
 
+.titre
+{
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.choix_hebergement
+{
+    background-color: #F2F2F2;
+}
+
+.stars
+{
+    color: #0065FC;
+}
 /* Footer */
 
 .footer
