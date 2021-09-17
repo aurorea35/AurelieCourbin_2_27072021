@@ -180,19 +180,22 @@ p
 main
 {
     display: flex;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .hebergement
 {
     background-color: #F2F2F2;
     border-radius: 30px;
-    width: 60%;
+    width: 65%;
+    margin-right: 90px;
 }
 
 .titre
 {
     display: flex;
-    padding: 10px;
+    padding: 17px;
 }
 
 .bloc_hebergement
@@ -205,8 +208,8 @@ main
 {
     background-color: white;
     box-shadow: 1px 3px 4px 3px darkgrey;
-    border-radius: 20px;
-    margin-bottom: 25px;
+    border-radius: 17px;
+    margin: 15px auto;
     padding: 3px;
     max-width: 250px; 
     max-height: 250px;
@@ -225,6 +228,7 @@ main
     height: auto;
     min-height: 166px;
     max-height: 166px;
+    object-fit: cover;
 }
 
 .descriptions
@@ -258,7 +262,7 @@ main
 .les_plus_populaires
 {
     background-color: #F2F2F2;
-    border-radius: 30px;
+    border-radius: 30px;    
     padding: 10px;
     width: 40%;
 }
@@ -268,7 +272,7 @@ main
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 20%;
-    height: 20%;
+    height: 40%;
 }
 .titre
 {
