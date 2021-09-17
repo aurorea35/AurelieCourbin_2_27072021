@@ -5,6 +5,12 @@ html
 
 /* Partie importante de la page */
 
+img
+{
+    width: 20%;
+    height: 20%;
+}
+
 h1,h2
 {
     font-size: 16px;
@@ -52,6 +58,13 @@ p
     text-decoration: none;
     padding: 10px;
     color: black;
+    font-size: 10px;
+}
+
+.barre_navigation a:hover
+{
+    border-top: 1px #0065FC solid;
+    color: #0065FC;    
 }
 
 /* Recherche */
@@ -152,7 +165,7 @@ p
 
 .information i
 {
-    border: 1px #DEEBFF solid;
+    border: 1px #F2F2F2 solid;
     border-radius: 40px;
     color: #0065FC;
     text-align: center;
@@ -170,21 +183,55 @@ p
 
 /* Hébergement */
 
+main
+{
+    display: flex;
+}
+
+.hebergement
+{
+    background-color: #F2F2F2;
+    width: 60%;
+}
+
 .titre
 {
     display: flex;
-    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+.etoiles
+{
+    color: #0065FC;
+}
+
+.differente
+{
+    color: #F2F2F2;
 }
 
 .choix_hebergement
 {
-    background-color: #F2F2F2;
+    background-color: white;
+    box-shadow: 0 0 6px 3px darkgrey;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding: 10px;
+    
+
+    /*width: */
+}   
+
+.afficher_plus
+{
+    padding: 10px;
+    font-weight: bold;
 }
 
-.stars
-{
-    color: #0065FC;
-}
+/* Les plus populaires */
+
+
+
 /* Footer */
 
 .footer
