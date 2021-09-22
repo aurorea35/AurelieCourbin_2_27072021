@@ -61,6 +61,7 @@ p
     color: #0065FC;    
 }
 
+
 /* Recherche */
 
 .rechercher
@@ -180,7 +181,6 @@ p
 main
 {
     display: flex;
-    max-width: 1600px;
     margin: auto;
 }
 
@@ -189,7 +189,7 @@ main
     background-color: #F2F2F2;
     border-radius: 30px;
     width: 65%;
-    margin-right: 90px;
+    margin-right: 15px;
 }
 
 .titre
@@ -211,8 +211,8 @@ main
     border-radius: 17px;
     margin: 15px auto;
     padding: 3px;
-    max-width: 250px; 
-    max-height: 250px;
+    width: 250px; 
+    height: 250px;
 }   
 
 .choix_hebergement a
@@ -265,6 +265,7 @@ main
     border-radius: 30px;    
     padding: 10px;
     width: 40%;
+    margin-left: 15px;
 }
 
 .choix_logement img
