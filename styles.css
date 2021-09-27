@@ -34,7 +34,7 @@ p
 header
 {
     margin: 25px auto;
-    max-width: 95%;
+    max-width: 93%;
 }
 
 .logo-nav
@@ -102,6 +102,11 @@ header
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-left: -24px;
+}
+
+input::placeholder
+{
+    color: black;
 }
 
 .ville
@@ -201,29 +206,34 @@ header
 main
 {
     display: flex;
-    margin: 15px 40px;
+    margin: 15px auto;
     padding: 10px;
+    max-width: 93%;
+    justify-content: space-between;
 }
 
 .hebergement
 {
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 65%;
+    width: 70%;
     margin-right: 15px;
+    padding: 25px;
 }
 
 .titre
 {
     display: flex;
-    padding: 15px 17px 0px 17px;
+    justify-content: space-between;
+    max-width: 1108px;
+    margin: auto;
 }
 
 .bloc_hebergement
 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -13px;
+    margin: auto;
 }
 
 .choix_hebergement
@@ -287,23 +297,22 @@ main
 {
     background-color: #F2F2F2;
     border-radius: 15px;    
-    padding: 2px;
-    width: 25%;
-    max-width: 800px;
-    margin-left: 15px auto;
+    padding: 25px;
+    width: 30%;
+    margin-left: 15px;
 }
 
-.titre
+.titre_populaire
 {
     display: flex;
     justify-content: space-between;
-    padding: 15px 17px 15px 17px;
+    max-width: 460px;
+    margin: auto;
 }
 
 .icone
 {
-    padding-top: 16px;
-    padding-right: 96px;
+    line-height: 3;
 }
 
 .descriptions_populaire
@@ -318,10 +327,9 @@ main
     background-color: white;
     box-shadow: 1px 3px 4px 3px darkgrey;
     border-radius: 15px; 
-    margin-bottom: 25px;
-    margin-left: 25px;
-    padding: 3px 36px 3px 3px;
-    width: 60%;
+    margin: 15px auto 25px auto;
+    padding: 5px 0 5px 5px;
+    width: 92%;
     height: 166px;
 }
 
@@ -393,52 +401,12 @@ main
     height: 250px;
 }
 
-.photo1 img, .photo4 img
-{
-    width: 400px;
-    height: 600px;
-}
-
-.colonne1, .colonne2
-{
-    display: flex;
-    flex-direction: column;
-}
-.photo2 img
-{
-    width: 400px;
-    height: 260px;
-}
-
-.photo3 img
-{
-    width: 400px;
-    height: 160px;
-}
-
-.photo5 img
-{
-    width: 400px;
-    height: 200px;
-}
-
-.photo6 img
-{
-    width: 400px;
-    height: 220px;
-}
-
-.legende
-{
-    padding: 10px;
-}
 /* Footer */
 
 .footer
 {
     background-color: #F2F2F2;
-    margin-top: 32px;
-    margin: auto;
+    margin: 32px auto;
     width: 100%;
 }
 
@@ -447,6 +415,8 @@ main
     display: flex;
     justify-content: space-between;  
 }
+
+
 
 .descriptif p a
 {
