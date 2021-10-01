@@ -21,6 +21,7 @@ h4
     color: black;
     margin-bottom: 9px;
     padding-left: 9px;
+    text-decoration: none;
 }
 
 p
@@ -367,13 +368,9 @@ main
 
 .activites
 {
-    max-width: 95%;
-    margin: auto;
-}
-
-.activites h2
-{
-    padding-left: 20px;
+    max-width: 93%;
+    margin: 40px auto;
+    padding: 10px;
 }
 
 .emplacement_des_activites
@@ -382,23 +379,46 @@ main
     justify-content: space-between;
 }
 
-.choix_activite
+.choix_activite_image1,.choix_activite_image2,.choix_activite_image3,.choix_activite_image4,.choix_activite_image5,.choix_activite_image6
 {
     background-color: white;
     box-shadow: 1px 2px 1px 1px #F2F2F2;
     border-radius: 25px;
 }
-.choix_activite a
+
+.choix_activite_image1 a,.choix_activite_image2 a,.choix_activite_image3 a,.choix_activite_image4 a,.choix_activite_image5 a,.choix_activite_image6 a
 {
     text-decoration: none;
 }
 
-.choix_activite img
+.choix_activite_image1 img,.choix_activite_image4 img
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 250px;
-    height: 250px;
+    overflow: hidden;
+    width: 82%;
+    height: 540px;
+    object-fit: cover;
+}
+
+.choix_activite_image2 img, .choix_activite_image3 img
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
+    width: 82%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.choix_activite_image5 img, .choix_activite_image6 img
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
+    width: 82%;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* Footer */
@@ -413,10 +433,18 @@ main
 .navigation_footer
 {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    max-width: 1800px;
+    min-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px 25px 20px;  
 }
 
-
+.titre_footer h3
+{
+    margin-left: 10px;
+    padding-right: 300px;
+}
 
 .descriptif p a
 {
