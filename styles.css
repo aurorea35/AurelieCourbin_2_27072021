@@ -39,6 +39,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo img
@@ -113,6 +114,11 @@ input::placeholder
     color: black;
 }
 
+input:focus
+{
+    outline: none;
+}
+
 .ville
 {
     padding-left: 12px;
@@ -135,6 +141,7 @@ input::placeholder
 {
     display: none;
 }
+
 /* Filtre */
 
 .filtres
@@ -163,13 +170,13 @@ input::placeholder
 .filtres i
 {
     border-radius: 40px;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     color: #0065FC;
     background-color: #DEEBFF;
     text-align: center;
     vertical-align: middle;
-    line-height: 29px;
+    line-height: 2.5;
     margin-left: -1px;
     }
 
@@ -260,7 +267,7 @@ main
     box-shadow: 1px 3px 4px 3px darkgrey;
     border-radius: 17px;
     margin: 15px auto;
-    padding: 3px;
+    padding: 4px;
     width: 30%; 
     height: 250px;
 }   
@@ -303,8 +310,17 @@ main
 
 .afficher_plus
 {
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1108px;
+    margin: 20px auto auto auto;
+}
+
+.afficher_plus p
+{
+    font-size: 14px;
     font-weight: bold;
+    padding: initial;
 }
 
 /* Les plus populaires */
@@ -344,7 +360,7 @@ main
     box-shadow: 1px 3px 4px 3px darkgrey;
     border-radius: 15px; 
     margin: 15px auto 25px auto;
-    padding: 5px 0 5px 5px;
+    padding: 4px 0 4px 4px;
     width: 92%;
     height: 166px;
 }
@@ -403,7 +419,7 @@ main
     border-radius: 25px;
     height: 500px;
     margin: 20px;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .choix_activite_image1 img, .choix_activite_image4 img
@@ -470,45 +486,24 @@ main
     margin: 20px auto;
 }
 
-.choix_activite_image5
+.choix_activite_image5, .choix_activite_image6
 {
     width: 100%;
     background-color: #F2F2F2;
     box-shadow: 1px 2px 1px 1px #a5a5a5;
     border-radius: 25px;
-    height: 290px;
+    height: 235px;
     margin-bottom: 30px;
     cursor: pointer;
 }
 
-.choix_activite_image6
-{
-    width: 100%;
-    background-color: #F2F2F2;
-    box-shadow: 1px 2px 1px 1px #a5a5a5;
-    border-radius: 25px;
-    height: 180px;
-    margin: 0;
-    cursor: pointer;
-}
-
-.choix_activite_image5 img
+.choix_activite_image5 img, .choix_activite_image6 img
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     overflow: hidden;
     width: 100%;
-    height: 240px;
-    object-fit: cover;
-}
-
-.choix_activite_image6 img
-{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    overflow: hidden;
-    width: 100%;
-    height: 130px;
+    height: 185px;
     object-fit: cover;
 }
 
@@ -522,7 +517,7 @@ main
 .footer
 {
     background-color: #F2F2F2;
-    margin: 32px auto;
+    margin: 32px auto 0 auto;
 }
 
 .navigation_footer
@@ -536,10 +531,9 @@ main
     width: 93%;  
 }
 
-.titre_footer h3
+.titre_footer
 {
-    margin-left: 1px;
-    padding-right: 490px;
+    width: 33%;
 }
 
 .descriptif p a
