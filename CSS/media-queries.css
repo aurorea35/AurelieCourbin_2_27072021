@@ -1,4 +1,27 @@
-@media screen and (max-width: 810px) 
+@media screen and (max-width: 443px)
+{
+    .familial
+    {
+        margin-right: 10px;
+    }
+    
+    #romantique
+    {
+        margin-right: 10px;
+        margin-left: initial;
+    }
+}
+
+@media screen and (min-width: 444px) and (max-width: 767px)
+{
+    #romantique
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) 
 {
     /* Partie importante de la page */
     
@@ -156,7 +179,7 @@
     .filtres h3
     {
         font-size: 12px;
-        width: 80%;
+        width: 100%;
     }
   
     .choix_filtre
@@ -361,7 +384,7 @@
     }
 }
 
-@media screen and (min-width: 811px) and (max-width: 1024px) 
+@media screen and (min-width: 768px) and (max-width: 1024px) 
 {
     /* Header */
 
@@ -377,9 +400,3 @@
         min-width: 45%;
     }
 }
-
-@media screen and (min-width: 1025px) and (max-width: 1440px)
-{
-    
-}
-

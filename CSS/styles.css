@@ -292,11 +292,6 @@ main
     text-decoration: none;
 }
 
-.choix_hebergement a:hover
-{
-    color: #0065FC;
-}
-
 .choix_hebergement img
 {
     border-top-left-radius: 15px;
