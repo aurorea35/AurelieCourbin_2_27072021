@@ -35,6 +35,7 @@
         display: inline;
         text-decoration: none;
         font-size: 15px;
+        
     }
 
     .logo_inscrire 
@@ -44,14 +45,41 @@
         align-items: center;
         margin: auto;
     }
-    .logo img
-    {
-        width: 30%;
-    }
+    
     .logo-nav 
     {
         display: flex;
         flex-direction: column;
+    }
+
+    .barre_navigation
+    {
+        width: 100%;
+    }
+
+    .navigation1_2
+    {
+        padding: 10px;
+        text-align: center; 
+        border-bottom: 2px #cfcfcf solid ;
+        color: black;
+    }
+
+    .navigation1_2 a
+    {
+        text-decoration: none;
+    }
+
+    .navigation1_2:hover, .navigation1_2:focus
+    {
+        border-bottom: 2px #0065FC solid ;
+        color: #0065FC;
+    }
+    
+    .barre_navigation li
+    {
+        width: 50%;
+    
     }
 
     .barre_navigation a
@@ -69,17 +97,6 @@
         padding-left: initial;
     }
     
-    .hebergements
-    {
-        border-bottom: 2px #0065FC solid ;
-        color: #0065FC;
-    }
-
-    .activite
-    {
-        border-bottom: 2px #cfcfcf solid ;
-        color: black;
-    }
     /* Recherche */
 
     .rechercher
@@ -521,6 +538,11 @@
         height: 400px;
     }
 
+    .choix_activite_image1 a
+    {
+        text-decoration: none;
+    }
+
     .choix_activite_groupe1, .choix_activite_groupe2
     {
         width: 45%;
@@ -559,16 +581,14 @@
 {
     /* Activités */
 
-    .activites
+    .choix_logement img
     {
-        width: 88%;
+        
     }
 }
 
 @media screen and (min-width: 1025px) and (min-width: 1440px)
 {
-    /* Footer */
-
     
 }
 
