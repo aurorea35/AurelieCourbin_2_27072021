@@ -38,6 +38,11 @@
         
     }
 
+    .logo img
+    {
+        width: 30%;
+    }
+
     .logo_inscrire 
     {
         display: flex;
@@ -375,6 +380,11 @@
         padding: 30px 3px;
     }
 
+    .logo img
+    {
+        width: 30%;
+    }
+
     /* Main */
        
     .hebergement
@@ -579,6 +589,13 @@
 
 @media screen and (min-width: 811px) and (min-width: 1024px) 
 {
+    /* Header */
+
+    .logo img
+    {
+        width: 30%;
+    }
+    
     /* Activités */
 
     .choix_logement img

@@ -3,6 +3,11 @@ html
     font-family: raleway;
 }
 
+body
+{
+    margin: initial;
+}
+
 /* Partie importante de la page */
 
 h1, h2
@@ -32,7 +37,12 @@ p
 header
 {
     margin: 25px auto;
-    max-width: 93%;
+    width: 93%;
+}
+
+.logo img
+{
+    width: 40%;
 }
 
 .logo-nav
@@ -40,11 +50,6 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo img
-{
-    width: 21%;
 }
 
 .barre_navigation ul
@@ -70,6 +75,11 @@ header
 }
 
 .navigation1_2
+{
+    color: black;
+}
+
+.navigation1_2 a
 {
     color: black;
 }
@@ -148,6 +158,7 @@ input:focus
 {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 10px;
     font-weight: bold;
@@ -223,7 +234,7 @@ main
     display: flex;
     margin: 15px auto;
     padding: 10px;
-    max-width: 93%;
+    width: 93%;
     justify-content: space-between;
 }
 
@@ -248,9 +259,7 @@ main
 
 .titre
 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1108px;
+    width: 98%;
     margin: auto;
 }
 
@@ -310,9 +319,7 @@ main
 
 .afficher_plus
 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1108px;
+    width: 98%;
     margin: 20px auto auto auto;
 }
 
@@ -338,7 +345,7 @@ main
 {
     display: flex;
     justify-content: space-between;
-    max-width: 460px;
+    width: 93%;
     margin: auto;
 }
 
@@ -393,22 +400,20 @@ main
 
 .activites
 {
-    max-width: 90%;
+    width: 93%;
     margin: 25px auto;
-    padding: 10px;
 }
 
 .activites h2
 {
-    margin-left: -27px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .emplacement_des_activites
 {
     display: flex;
     justify-content: space-between;
-    margin-left: -47px;
-    margin-right: -27px;
 }
 
 .choix_activite_image1, .choix_activite_image4
@@ -419,6 +424,11 @@ main
     border-radius: 25px;
     height: 500px;
     margin: 20px;
+    margin-left: initial;
+}
+
+.choix_activite_image1 a, .choix_activite_image2 a, .choix_activite_image3 a, .choix_activite_image4 a, .choix_activite_image5 a, .choix_activite_image6 a
+{
     text-decoration: none;
 }
 
@@ -430,6 +440,11 @@ main
     width: 100%;
     height: 450px;
     object-fit: cover;
+}
+
+.choix_activite_image4
+{
+    margin-left: 20px;
 }
 
 .choix_activite_groupe1
@@ -446,7 +461,6 @@ main
     border-radius: 25px;
     height: 290px;
     margin-bottom: 30px;
-    cursor: pointer;
 }
 
 .choix_activite_image3
@@ -457,7 +471,6 @@ main
     border-radius: 25px;
     height: 180px;
     margin: 0;
-    cursor: pointer;
 }
 
 .choix_activite_image2 img
@@ -494,7 +507,6 @@ main
     border-radius: 25px;
     height: 235px;
     margin-bottom: 30px;
-    cursor: pointer;
 }
 
 .choix_activite_image5 img, .choix_activite_image6 img
@@ -524,11 +536,9 @@ main
 {
     display: flex;
     justify-content: flex-start;
-    max-width: 1800px;
-    min-width: 900px;
+    width: 93%;
     margin: 0 auto;
     padding: 10px 0 25px 0;
-    width: 93%;  
 }
 
 .titre_footer
